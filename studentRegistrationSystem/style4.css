@@ -1,0 +1,22 @@
+.modal-header, .modal-footer{
+    border:none;
+}
+.body{
+    margin: auto;
+    padding-bottom: 7%;
+    padding: 10px;
+}
+.body span{
+    font-size: large;
+    font-weight: 500;
+}
+.body a{
+    text-decoration: none;
+}
+.body p{
+    font-size: large;
+    text-align:center ;
+}
+.btn{
+    font-size: large;
+}

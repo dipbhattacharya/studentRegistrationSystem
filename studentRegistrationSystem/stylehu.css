@@ -1,0 +1,52 @@
+
+.hidden {
+    display: none;
+}
+/* .bbody{
+    background-image: url("https://www.aber.ac.uk/en/student/charter/lecture.jpg");
+    height: 100%;
+} */
+.navbody{
+    margin-top: 0%;
+    background-color: rgb(255,255,255);
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+.dropbtn{
+    background-color: transparent;
+    border: none;
+}
+.navcol{
+    background-color: grey;
+    /* margin-right: ; */
+}
+.dropdown-mnu{
+    display: none;
+    position: absolute;
+    background-color:rgba(128, 128, 128, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.3);
+    z-index: 1;
+}
+.dropdown-mnu a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+.dropdown-mnu a:hover{
+    color: white;
+    background-color: black;
+}
+.menuarea:hover{
+    background-color: black;
+}
+.menuarea:hover .dropdown-mnu{
+    display: block;
+}
+.footer{
+    background-color: grey;
+    display: flex;
+    padding: 5px;
+    margin-top:auto;
+}
